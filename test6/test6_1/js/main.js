@@ -19,7 +19,6 @@ switch1.addEventListener('click', function(){
 })
 switch2.addEventListener('click',  function(){
   slideIndex = 1;
-  // document.querySelector('.label2').style.color = 'red';
   document.querySelector('.label2').style.color = '#ECBA46';
   document.querySelector('.label1').style.color = '#C4C4C4';
   document.querySelector('.label3').style.color = '#C4C4C4';
@@ -30,7 +29,6 @@ switch3.addEventListener('click',  function(){
   document.querySelector('.label3').style.color = '#ECBA46';
   document.querySelector('.label1').style.color = '#C4C4C4';
   document.querySelector('.label2').style.color = '#C4C4C4';
-  // document.querySelector('.label3').style.color = 'red';
   updateSlider();
 })
 
@@ -64,14 +62,13 @@ function updateSlider() {
 // Инициализация слайдера
 updateSlider();
 
+// Функция проверки клика на кнопку мобильного меню
 document.querySelector('.btn_mobil_menu').addEventListener('click', function(){
   this.classList.toggle('active');
   document.querySelector('.menu').classList.toggle('open');
-  // document.querySelector('.menu_list').classList.toggle('active');
-  // document.querySelector('.menu_btn').classList.toggle('active');
-  // document.querySelector('body').classList.toggle('open_body');
 })
 
+// Функция закрытия мобильного меню
 function close_mobil_menu(){
   document.querySelector('.menu').classList.remove('open');
   document.querySelector('.btn_mobil_menu').classList.remove('active');

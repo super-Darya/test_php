@@ -97,5 +97,5 @@ function check_time($newTimeRange, $list){
 
 var_dump(isValidTimeRange($newTimeRange));
 var_dump(isTimeRangeOverlap($newTimeRange, $list));
-// var_dump(check_time($newTimeRange, $list));
+var_dump(check_time($newTimeRange, $list));
 ?>

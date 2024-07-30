@@ -19,7 +19,6 @@ a:hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
     text-decoration-color: rgba(236, 186, 70, 1);
-    /* Смещаем подчёркивание на 20 пикселей вниз */
     text-underline-offset: 10px;
 
    }
@@ -92,17 +91,14 @@ body{
   font-family: 'Montserrat', sans-serif;
     padding: 13px 20px;
     border-radius: 130px;
-    /* border: 2px #fff; */
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-    /* background: transparent;  */
     transition: all .3s;
 }
 
 
 .menu_btn:hover {
-    /* border: 2px #fff; */
     color: #000;
     background: #fff;
 }
@@ -131,21 +127,17 @@ h2{
     text-decoration: underline;
     text-decoration-thickness: 10px;
     text-decoration-color: rgba(236, 186, 70, 1);
-    /* Смещаем подчёркивание на 20 пикселей вниз */
     text-underline-offset: 15px;
-    /* color: rgba(52, 52, 52, 1); */
 
 }
   
   .slider-wrap {
-    /* margin-top: 73px; */
     position: relative;
     width: 726px;
     height: 500px;
     margin: 0 auto;
     overflow: hidden;
     max-width: 726px;
-    /* margin: 0 auto 100px; */
   }
   
   .slider {
@@ -162,8 +154,6 @@ h2{
   }
 
   .slides-text > img {
-    /* max-width: 412px; */
-    /* height: auto; */
     max-height: 254px;
     width: auto;
     object-fit: cover;
@@ -205,14 +195,10 @@ h2{
 .next-button {
     position: absolute;
     top: 40%;
-    /* transform: translateY(-50%); */
     width: 44px;
     height: 82px;
     background-color: transparent;
     border: none;
-    /* font-size: 50px; */
-    /* color: rgba(236, 186, 70, 1); */
-    
   }
   
   .prev-button {
@@ -221,8 +207,6 @@ h2{
     background-image: url(../images/switch.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
-    /* width: 100%; */
   }
   
   .next-button {
@@ -230,7 +214,6 @@ h2{
     background-image: url(../images/switch.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
   }
 
   .slider_input{
@@ -352,8 +335,6 @@ h2{
 
   .about_form{
     position: relative;
-    /* top:500px;
-    left: 500px; */
     margin-top: -43px;
     max-width: 970px;
     height: 494px;
@@ -366,9 +347,6 @@ h2{
     margin-inline: auto;
     z-index: 2;
     padding: 0 20px;
-    /* margin-block-start: 50vh;
-    transform: translateY(-100%); */
-    /* align-items: center; */
   }
 
   .title_form{
@@ -408,7 +386,6 @@ h2{
     border-color: #fff;
   }
 
-  /* кнопку можно записать в один стиль для элемента button (чтобы не повторяться) */
   .form_btn{  
     margin-top: 45px;
     padding: 13px 20px;
@@ -531,12 +508,9 @@ bottom: 0;
   transform: translateY(-50%);
   transform: rotate(45deg);
   background-color: #404040;
-  /* transform: rotate(-45deg) translate(0, -50%); */
 }
 
 .btn_mobil_menu.active::after{
-  /* bottom: 50%; */
-  /* transform: rotate(45deg) translate(0, 50%); */
   top: 50%;
   transform: translateY(-50%);
   background-color: #404040;
@@ -568,20 +542,15 @@ body.open_body{
   iframe{
     width: 100% !important;
     max-width: 600px;
-    /* width: auto; */
   }
 
   .header_top{
-    /* margin: 0 auto; */
     padding: 0 30px;
   }
 
   .btn_mobil_menu{
     display: flex;
     position: relative;
-    /* position: fixed; */
-    /* margin-right: 10%; */
-    /* overflow: hidden; */
   }
 
   .menu{
@@ -623,7 +592,6 @@ body.open_body{
     text-decoration: underline;
     text-decoration-thickness: 4px;
     text-decoration-color: rgba(236, 186, 70, 1);
-    /* Смещаем подчёркивание на 20 пикселей вниз */
     text-underline-offset: 10px;
   }
 
@@ -656,7 +624,6 @@ body.open_body{
 
   iframe{
     max-width: 430px;
-    /* width: auto; */
   }
 
   .slider-wrap{
@@ -682,15 +649,12 @@ body.open_body{
   }
 
   .about_woman{
-    /* display: none; */
-    /* content: ""; */
     position: absolute;
     transform: scale(1.5);
     left: 0;
     top: 100px;
     width: 290px;
     height:450px;
-    /* bottom: 0; */
     opacity: 0.4;
     z-index: -1;
   }
@@ -714,7 +678,6 @@ body.open_body{
 
   iframe{
     max-width: 400px;
-    /* width: auto; */
   }
 
   .only_text_potato{
@@ -747,9 +710,6 @@ body.open_body{
 .title_form{
   font-size: 30px;
 }
-/* .controls{
-  margin-top: 150px;
-} */
 
 form > input{
 max-width: 310px;

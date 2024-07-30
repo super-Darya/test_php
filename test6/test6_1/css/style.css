@@ -19,7 +19,6 @@ a:hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
     text-decoration-color: rgba(236, 186, 70, 1);
-    /* Смещаем подчёркивание на 20 пикселей вниз */
     text-underline-offset: 10px;
 
    }
@@ -38,7 +37,6 @@ ul{
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-/* color: #FFFFFF; */
     color: #000;
     font-size: 18px;
     font-weight: 400;
@@ -60,26 +58,15 @@ body{
     padding: 0 10px;
     margin: 0 auto;
     text-align: center;
-
-    /* width: 100%; */
 }
 
 .header{
     /* background: radial-gradient(40.83% 40.83% at 50% 50%, rgba(225, 186, 110, 0) 0%, rgba(225, 186, 110, 0.7) 100%), url(../images/potato_main.png) center/cover ; */
     background: url(../images/group_potato_main.png);
-    /* height: 100vh; */
     width: 100%;
-    /* margin: 0; */
     background-repeat: no-repeat;
     background-position: center;
-    /* display: block; */
-    /* background-position: center center; */
     height: 900px;
-    /* background-size: cover;
-    background-position: center; */
-    /* margin: -8px; */
-    
-    /* position: relative; */
 }
 
 
@@ -106,7 +93,6 @@ h1{
     font-weight: 500;
     line-height: 24.38px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     gap: 0 59px;
     
@@ -120,41 +106,28 @@ h1{
   font-family: 'Montserrat', sans-serif;
     padding: 13px 20px;
     border-radius: 130px;
-    /* border: 2px #fff; */
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-    /* background: transparent;  */
     transition: all .3s;
 }
 
 
 .menu_btn:hover {
-    /* border: 2px #fff; */
     color: #000;
     background: #fff;
 }
 
 .header_content{
-    /* display: block; */
-    /* flex-wrap: wrap; */
-    /* justify-content: center;
-    align-items: center; */
     text-align: center;
-    /* word-wrap: break-word; */
-    /* margin-top: 190px; */
-    /* margin: 0 10%;  */
 }
 
 .title{
-    /* display: flex; */
-
     font-size: 112px;
     font-weight: 900;
     line-height: 136.53px;
     text-transform: uppercase;
     color: #fff;
-    /* z-index: 5; */
     word-wrap: break-word;
     @media (max-width: 920px) {
       text-align: left;
@@ -168,21 +141,16 @@ h2{
     text-decoration: underline;
     text-decoration-thickness: 10px;
     text-decoration-color: rgba(236, 186, 70, 1);
-    /* Смещаем подчёркивание на 20 пикселей вниз */
     text-underline-offset: 15px;
-    /* color: rgba(52, 52, 52, 1); */
-
 }
   
   .slider-wrap {
-    /* margin-top: 73px; */
     position: relative;
     width: 726px;
     height: 500px;
     margin: 0 auto;
     overflow: hidden;
     max-width: 726px;
-    /* margin: 0 auto 100px; */
   }
   
   .slider {
@@ -199,8 +167,6 @@ h2{
   }
 
   .slides-text > img {
-    /* max-width: 412px; */
-    /* height: auto; */
     max-height: 254px;
     width: auto;
     object-fit: cover;
@@ -241,14 +207,10 @@ h2{
 .next-button {
     position: absolute;
     top: 40%;
-    /* transform: translateY(-50%); */
     width: 44px;
     height: 82px;
     background-color: transparent;
     border: none;
-    /* font-size: 50px; */
-    /* color: rgba(236, 186, 70, 1); */
-    
   }
   
   .prev-button {
@@ -257,8 +219,6 @@ h2{
     background-image: url(../images/switch.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
-    /* width: 100%; */
   }
   
   .next-button {
@@ -266,7 +226,6 @@ h2{
     background-image: url(../images/switch.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
   }
 
   .slider_input{
@@ -329,9 +288,6 @@ h2{
  .container_potato_woman{
   display: flex;
   width: 100%;
-  
-  /* position: relative; */
-  /* justify-content: space-between; */
   align-items: center;
   max-height: 534px;
   z-index: 1;
@@ -339,20 +295,15 @@ h2{
 
  .about_info{
     display: flex;
-    /* position: relative; */
     justify-content: center;
-    /* margin: 0 590px; */
-    gap: 0 62px;
-    /* background: url(../images/woman.png); */    
+    gap: 0 62px;  
  }
 
  .only_text_potato{
-   /* padding-bottom: 100px; */
     text-align: left;
     max-height: 392px;
     width: 400px;
     margin-bottom: 50px;
-    /* display: inline-block; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -364,25 +315,13 @@ h2{
   max-width: 420px;
   width: 100%;
   padding: 0 5px;
-  /* word-break: break-all; */
 
   @media(max-width: 768px) {
     font-size: 16px;
   }
 }
- /* .img_woman {
-    max-width: 412px; */
-    /* height: auto;
-    height: 450px;
-    width: 290px;
-    object-fit: cover;
-    justify-content: center;
-    align-items: center;
-  } */
 
  .about_woman {
-    /* max-width: 412px; */
-    /* height: auto; */
     height: 450px;
     width: 290px;
     object-fit: cover;
@@ -391,43 +330,26 @@ h2{
   }
 
   .blur_potato_container{
-    /* position: absolute; */
-    /* background: url(../images/blur_potato.png) no-repeat center; */
     margin-top: -300px;
     max-width: 333px;
     margin-right: 110px;
-    /* left: 20px; */
-    /* object-fit: cover;
-    justify-content: center;
-    align-items: center; */
   }
 
   .potato_container{
-    /* position: absolute; */
-    /* background: url(../images/potato.png) no-repeat center; */
     margin-top: 500px;
     max-width: 526px;
     margin-left: -70px;
-    /* left:1000px; */
-    /* top: 300px; */
-    /* z-index: -1; */
   }
 
   .container_form{
     display: flex;
     flex-direction: column;
-    /* width: 90%; */
-    /* overflow: hidden; */
     z-index: 3;
   }
 
   .about_form{
     width: auto;
-    /* display: flex;
-    flex-direction: column; */
     position: relative;
-    /* top:500px;
-    left: 500px; */
     margin-top: -43px;
     margin-left: 20px; margin-right: 20px;
     max-width: 970px;
@@ -441,9 +363,6 @@ h2{
     margin-inline: auto;
     z-index: 2;
     padding: 50px 20px;
-    /* margin-block-end: 50vh; */
-    /* transform: translateY(-100%); */
-    /* align-items: center; */
   }
 
   .title_form{
@@ -453,7 +372,6 @@ h2{
     font-weight: 600;
     height: 49px;
     margin: 0;
-    /* padding: 59px 0; */
   }
 
   .form_potato{
@@ -483,12 +401,10 @@ h2{
     border-color: #fff;
   }
 
-  /* кнопку можно записать в один стиль для элемента button (чтобы не повторяться) */
   .form_btn{  
     margin-top: 45px;
     padding: 13px 20px;
     border-radius: 130px;
-    /* border: 2px #fff; */
     font-size: 20px;
     font-weight: 500;
     color: #333333;
@@ -606,12 +522,9 @@ bottom: 0;
   transform: translateY(-50%);
   transform: rotate(45deg);
   background-color: #404040;
-  /* transform: rotate(-45deg) translate(0, -50%); */
 }
 
 .btn_mobil_menu.active::after{
-  /* bottom: 50%; */
-  /* transform: rotate(45deg) translate(0, 50%); */
   top: 50%;
   transform: translateY(-50%);
   background-color: #404040;
@@ -642,20 +555,15 @@ body.open_body{
 
   iframe{
     max-width: 600px;
-    /* width: auto; */
   }
 
   .header_top{
-    /* margin: 0 auto; */
     padding: 0 30px;
   }
 
   .btn_mobil_menu{
     display: flex;
     position: relative;
-    /* position: fixed; */
-    /* margin-right: 10px; */
-    /* overflow: hidden; */
   }
 
   .menu{
@@ -697,7 +605,6 @@ body.open_body{
     text-decoration: underline;
     text-decoration-thickness: 4px;
     text-decoration-color: rgba(236, 186, 70, 1);
-    /* Смещаем подчёркивание на 20 пикселей вниз */
     text-underline-offset: 10px;
   }
 
@@ -730,7 +637,6 @@ body.open_body{
 
   iframe{
     max-width: 430px;
-    /* width: auto; */
   }
 
   .slider-wrap{
@@ -756,15 +662,12 @@ body.open_body{
   }
 
   .about_woman{
-    /* display: none; */
-    /* content: ""; */
     position: absolute;
     transform: scale(1.5);
     left: 0;
     top: 100px;
     width: 290px;
     height:450px;
-    /* bottom: 0; */
     opacity: 0.4;
     z-index: -1;
   }
@@ -772,14 +675,10 @@ body.open_body{
   .only_text_potato{
     margin-top: -100px;
     display: block;
-    /* font-weight: 600;
-    line-height: 19.38px; */
     text-align: center;
-    /* font-size: 20px; */
-    font-weight: 500;
-    /* word-break: break-all; */
- 
+    font-weight: 500; 
   } 
+
   .blur_potato, .potato{
     opacity: 0;
     z-index: -1;
@@ -787,7 +686,6 @@ body.open_body{
   .title_about{
     margin-bottom: 56px;
   }
-
 }
 
 @media (max-width: 430px) {
@@ -801,22 +699,12 @@ body.open_body{
   .only_text_potato{
     margin-top: -100px;
     display: block;
-    /* flex-direction: column; */
     font-size: 12px;
     font-weight: 600;
     line-height: 19.38px;
     text-align: center;
-    /* align-items: center; */
-    /* word-break: break-all; */
-
-    /* font-weight: 600;
-    line-height: 19.38px; */
     min-width: 310px;
-    /* max-height: 300px; */
-    /* min-height: 500px; */
     width: 100%;
-    /* width: auto;
-    padding: 0 auto; */
     margin-bottom: 0;
  
   } 
@@ -843,9 +731,6 @@ body.open_body{
 .title_form{
   font-size: 30px;
 }
-/* .controls{
-  margin-top: 150px;
-} */
 
 form > input{
 max-width: 310px;

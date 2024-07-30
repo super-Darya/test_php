@@ -65,7 +65,7 @@ class DeliveryCalculator
     public function calculateCost($weight)
     {
         if ($this->strategy === null) {
-            throw new Exception("Strategy is not set.");
+            throw new Exception("Стратегия не установлена.");
         }
 
         return $this->strategy->calculateCost($weight);
