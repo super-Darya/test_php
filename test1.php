@@ -102,14 +102,17 @@ function find_worker($area)
 	}
 	}
 	if ($worker){
+		// echo 'Полное совпадение = '.$worker .PHP_EOL;
 		return $worker; // Сотрудник с прямым совпадением районов
 	}
 	else{
-		return $workers_area; // Список ближайших сотрудников (без прямого совпадения районов)
+		if($workers_area){
+			return $workers_area; // Список ближайших сотрудников (без прямого совпадения районов)
+		}
+		else return null;  
 	}
 	
 }
 
 var_dump(find_worker('Первомайский'));
-var_dump(find_worker('Центр'));
 ?>
